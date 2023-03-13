@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  
+  <meta name="keywords" content="HTML5, HTML"> 
+  <link rel="stylesheet" href="./bilingCycle.css"> 
+
+</head>
+
+<body>
+  <header scope="title" ><b>TeamTaub Gaming Plans</b></header>
+  <hr />
+    <text scope="step"> Step 3 of 4 - Checkout</text>
+    <hr />
+  <br />
+  <main>
+    <p id="CyclePlan"> You chose</p>
+    <p > Enter Credit Card Details. </p>
+    <br />
+    <div class="block">
+        <label>CC Number :</label>
+        <input id="CcNumber"size="50" type="text" required/>
+    </div>
+    <div class="block">
+        <label>Name: </label>
+        <input id="Name" type="text" required />
+        <label>CVV: </label>
+        <input id="CVV" type="text" required />
+    </div>
+    <div class="block">
+        <label>Expiration:</label>
+        <input id="Expiration" size="50" type="text" required />
+    </div>
+    <br />
+
+    <button id = "Validate"> Submit!  </button>
+
+  </main>
+  <script type="module" src="./checkoutForm.js"></script>
+</body>
+</html>

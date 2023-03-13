@@ -1,0 +1,66 @@
+header[scope="title"]{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 32px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+body {
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+    position: relative;
+  }
+
+  button{
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(236, 252, 255);
+    background-color: #6f96a6;
+    border: none;
+    border-radius: 15px;
+}
+#Validate{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(236, 252, 255);
+    background-color: #6f96a6;
+    border-radius: 15px;
+}
+#MonthlyPayment{
+    position: absolute;
+    float: left;
+    margin-left: -400px;
+    }
+
+#YearlyPayment{
+    position: absolute;
+    float: right;
+    margin-left: 300px;
+    }
+
+#BestValue{
+    display: inline-block;
+    padding: 7px 25px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: #a80d0a;
+    border-radius: 100px;
+    position: absolute;
+    float: right;
+    margin-left: 317px;
+}
+
+#game{
+    font-size: 60px;
+}
